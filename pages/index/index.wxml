@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="item" wx:for="{{list}}" wx:key="id">
+    <view class="top">
+      <view class="topItem1"></view>
+      <view class="topItem2">{{item.auther}}</view>
+      <view class="topItem3">{{item.tag}}</view>
+    </view>
+    <view class="main">
+      <view class="mainItem">{{item.title}}</view>
+      <view class="mainContent">{{item.content}}</view>
+    </view>
+    <view class="bottom">
+      <view class="bottomItem">{{item.like}}</view>
+      <view class="bottomItem">{{item.comments}}</view>
+    </view>
+  </view>
+</view>

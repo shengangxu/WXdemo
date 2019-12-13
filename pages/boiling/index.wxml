@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="top">
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+    <view class="item">
+      <view class="one">
+        <mp-icon icon="eyes-on" color="red" size="{{18}}"></mp-icon>
+        <view class="tips">热门沸点</view>
+      </view>
+      <view class="title">提醒一下，今天是周五</view>
+    </view>
+  </view>
+</view>

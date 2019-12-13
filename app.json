@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/boiling/index",
+    "pages/info/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0066FF",
+    "navigationBarTitleText": "掘金",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#fff",
+    "enablePullDownRefresh":false,
+    "onReachBottomDistance":50
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": false,
+    "borderStyle": "white",
+    "selectedColor":"#0066FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"/static/icon/home.png",
+        "selectedIconPath":"/static/icon/home.png"
+      },
+      {
+        "pagePath": "pages/boiling/index",
+        "text": "沸点",
+        "iconPath": "/static/icon/liaotian.png",
+        "selectedIconPath": "/static/icon/liaotian.png"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "text": "我的",
+        "iconPath": "/static/icon/touxiang.png",
+        "selectedIconPath": "/static/icon/touxiang.png"
+      }
+    ]
+  }
+}

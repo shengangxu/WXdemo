@@ -1,0 +1,38 @@
+/**index.wxss**/
+.container{
+  background: #f9f9fa;
+  height: 100vh;
+  margin:0;
+  padding:0;
+  padding-top:20rpx;
+}
+.top{
+  /* display: flex;
+  flex-wrap:nowrap; */
+  width: 100%;
+  overflow: auto;
+  height: 200rpx;
+}
+.item{
+  display: inline-block;
+  height: 200rpx;
+  width: 500rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin:10rpx;
+  padding-top:20rpx;
+  padding-left: 20rpx;
+}
+.one{
+  display: flex;
+  align-items: center;
+}
+.tips{
+  font-size: 28rpx;
+  margin-left:20rpx;
+}
+.title{
+  margin-top:20rpx;
+  font-size: 28rpx;
+  color:#84929c;
+}

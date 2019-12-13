@@ -1,0 +1,44 @@
+/**index.wxss**/
+.container{
+  background: #f9f9fa;
+  /* height: 100vh; */
+  margin:0;
+  padding:0;
+  padding-top:25rpx;
+  /* display: flex;
+  flex-direction: column; */
+}
+.header{
+  height: 150rpx;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left:25rpx;
+}
+.img{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right:30rpx;
+}
+.denglu{
+  width: 580rpx;
+}
+.main, .footer{
+  margin-top:30rpx;
+  width: 100%;
+}
+.item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left:25rpx;
+  border-bottom: 1rpx solid #f9f9fa;
+  background-color: #fff;
+  height: 80rpx;
+}
+.title{
+  margin-left:25rpx;
+  font-size: 28rpx;
+}

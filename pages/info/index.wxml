@@ -1,0 +1,47 @@
+<view class="container">
+  <view class="header">
+    <image class="img" src="../../static/icon/hd.jpg"></image>
+    <view class="denglu">登录/注册</view>
+    <mp-icon icon="arrow" color="black" size="{{14}}"></mp-icon>
+  </view>
+  <view class="main">
+    <view class="item">
+      <mp-icon icon="bellring-on" color="blue" size="{{18}}"></mp-icon>
+      <view class="title">消息中心</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="like" color="green" size="{{18}}"></mp-icon>
+      <view class="title">我喜欢的</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="folder" color="blue" size="{{18}}"></mp-icon>
+      <view class="title">收藏集</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="shop" color="yellow" size="{{18}}"></mp-icon>
+      <view class="title">已购小册</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="star" color="green" size="{{18}}"></mp-icon>
+      <view class="title">赞过的沸点</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="eyes-on" color="gray" size="{{18}}"></mp-icon>
+      <view class="title">阅读过的文章</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="tag" color="gray" size="{{18}}"></mp-icon>
+      <view class="title">标签管理</view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="item">
+      <mp-icon icon="help" color="blue" size="{{18}}"></mp-icon>
+      <view class="title">意见反馈</view>
+    </view>
+    <view class="item">
+      <mp-icon icon="setting" color="blue" size="{{18}}"></mp-icon>
+      <view class="title">设置</view>
+    </view>
+  </view>
+</view>
